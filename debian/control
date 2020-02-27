@@ -10,7 +10,7 @@ Homepage: https://nongnu.org/dmidecode/
 
 Package: dmidecode
 Priority: important
-Architecture: any-amd64 arm64 armhf ia64 any-i386
+Architecture: any-amd64 arm64 armhf ia64 any-i386 mips64el
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: SMBIOS/DMI table decoder
  Dmidecode reports information about the system's hardware as described in the
@@ -28,7 +28,7 @@ Description: SMBIOS/DMI table decoder
 
 Package: dmidecode-udeb
 Section: debian-installer
-Architecture: any-amd64 arm64 armhf ia64 any-i386
+Architecture: any-amd64 arm64 armhf ia64 any-i386 mips64el
 Package-Type: udeb
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: SMBIOS/DMI table decoder (udeb)
